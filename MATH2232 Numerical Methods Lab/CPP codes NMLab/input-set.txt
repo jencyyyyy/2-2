@@ -1,0 +1,162 @@
+**************Forward and Backward***********
+
+4
+Enter data:
+x[0] = 45
+y[0] = .7071
+x[1] = 50
+y[1] = .7660
+x[2] = 55
+y[2] = .8192
+x[3] = 60
+y[3] = .8660
+
+BACKWARD DIFFERENCE TABLE
+45      0.7071
+50      0.766   0.0589
+55      0.8192  0.0532  -0.00569999
+60      0.866   0.0468  -0.00639999     -0.000699997
+
+Process returned 0 (0x0)   execution time : 44.451 s
+Press any key to continue.
+
+
+Enter number of data?
+5
+Enter data:
+x[0] = 1891
+y[0] = 46
+x[1] = 1901
+y[1] = 66
+x[2] = 1911
+y[2] = 81
+x[3] = 1921
+y[3] = 93
+x[4] = 1931
+y[4] = 101
+Enter the value of x:
+1925
+
+DIVIDED DIFFERENCE TABLE
+
+  46
+  66      20
+  81      15      -5
+  93      12      -3       2
+ 101       8      -4      -1      -3
+
+ Value at 1925 is 96.8368
+
+Process returned 0 (0x0)   execution time : 51.466 s
+Press any key to continue.
+
+
+
+
+
+
+***********devide Difference*********
+
+Enter the total number of set of points : 5
+
+X1 = 2.5
+Y1 = 8.85
+
+X2 = 3.0
+Y2 = 11.45
+
+X3 = 4.5
+Y3 = 20.66
+
+X4 = 4.75
+Y4 = 22.85
+
+X5 = 6
+Y5 = 38.6
+
+Enter the value of x for which y is to be computed : 3.5
+
+DIVIDED DIFFERENCE TABLE
+
+x       y
+
+2.5     8.85    5.2     0.470001        0.456508        -0.0292068
+3       11.45   6.14    1.49714 0.354284
+4.5     20.66   8.76    2.56
+4.75    22.85   12.6
+6       38.6
+
+
+FOR x = 3.5, y = 14.0385
+Process returned 0 (0x0)   execution time : 58.082 s
+Press any key to continue.
+
+
+
+
+
+*****************Gauss method***************
+Enter number of unknowns: 3
+Enter Coefficients of Augmented Matrix:
+a[1]1]= 1
+a[1]2]= 1
+a[1]3]= 1
+a[1]4]= 9
+a[2]1]= 2
+a[2]2]= -3
+a[2]3]= 4
+a[2]4]= 13
+a[3]1]= 33
+a[3]2]= 4
+a[3]3]= 5
+a[3]4]= 40
+
+Solution:
+x[1] = -0.060606
+x[2] = 3.30303
+x[3] = 5.75758
+
+
+**************Gauss seidal and Gauss Jordan********************
+Enter the no. of equations:3
+
+Enter the elements of the augmented matrix row-wise:
+a[0][0]= 27
+a[0][1]= 6
+a[0][2]= -1
+a[0][3]= 85
+a[1][0]= 6
+a[1][1]= 15
+a[1][2]= 2
+a[1][3]= 72
+a[2][0]= 1
+a[2][1]= 1
+a[2][2]= 54
+a[2][3]= 110
+
+Enter the initial values of the variables:
+x[0]= 0
+x[1]= 0
+x[2]= 0
+
+Enter the accuracy upto which you want the solution:
+.0001
+Iter         x0                 x1                 x2
+----------------------------------------------------------------------
+1.          3.1481            3.5407            1.9132
+
+2.          2.4322            3.5720            1.9258
+
+3.          2.4257            3.5729            1.9260
+
+4.          2.4255            3.5730            1.9260
+
+5.          2.4255            3.5730            1.9260
+
+ The solution is as follows:
+x0 = 2.4255
+x1 = 3.5730
+x2 = 1.9260
+
+Process returned 0 (0x0)   execution time : 41.183 s
+Press any key to continue.

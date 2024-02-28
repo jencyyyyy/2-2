@@ -1,0 +1,6 @@
+To compile a C++ file suppose hello.cpp ,run this in the commandline:
+g++ hello.cpp
+
+To see the output, run :
+./a.out
+

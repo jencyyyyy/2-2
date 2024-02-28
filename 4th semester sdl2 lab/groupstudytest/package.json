@@ -1,0 +1,17 @@
+{
+  "name": "groupstudytest",
+  "version": "1.0.0",
+  "description": "Showing step by step",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Teresa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0",
+    "nodemon": "^2.0.15"
+  }
+}

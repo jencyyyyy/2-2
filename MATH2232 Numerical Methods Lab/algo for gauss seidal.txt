@@ -1,0 +1,30 @@
+1. Enter the no.of equations,n.
+2. Create an nx(n+1)matrix,which will be the augmented matrix.
+3. Create an array'x'of size'n'which will store the solutions.
+4. Enter the elements of augmented matrix.
+5. Enter the initial guesses.
+6. Enter the tolerance limit,eps.
+7.Pivoting:
+        Fori=0ton-1
+             Fork=i+1to -1
+                 If aii<aki
+                   Then Forj=0ton
+                           Swap aij with akj
+8. Set flag=0.
+                                             
+9. Do:
+     Do For i=0 to n-1
+          y=xi
+          Xi=ain
+          Do For j =0 to n-1
+              If j!=i
+              Then xi=xi-aij*xj
+	 End For j.
+         Xi=Xi/aii
+	If|xi-y|<=eps
+	Then increment flag.
+    End For i.
+
+Until flag<3
+
+10. Print the solution that is, the elements of'x'array

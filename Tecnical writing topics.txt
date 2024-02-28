@@ -1,0 +1,26 @@
+1. Face detection
+2. Online auction system
+3. Evaluation of academic performance
+4. e-Authentication system --------------------Shorno -11
+5. Cursor movement on object motion
+6. Crime rate prediction-----------------------Natasha-1
+7. Android battery saver system
+8. Symbol recognition 
+9. Public news droid
+10. Search engine -----------------------------Nishi-2
+11. Online eBook maker-------------------------Bithi-3
+12. Mobile wallet with merchant payment
+13. Student Attendance System------------------Sadia-4
+14. Hotel Management Android Application
+15. Class Management System--------------------Mashrafi vai-10
+16. Blood donation system----------------------Mou-5
+17. Air quality monitoring system--------------Jannat-6
+18. Learning Mangement System------------------Jency-7
+19. Doctor's portal----------------------------Fahim-8
+20. Stuent Management System-------------------Nahid vaai-9
+
+
+
+
+
+
